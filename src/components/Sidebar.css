@@ -1,0 +1,106 @@
+.sidebar {
+    width: 280px;
+    background-color: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: var(--spacing-md);
+    box-sizing: border-box;
+}
+
+.sidebar-header {
+    margin-bottom: var(--spacing-lg);
+}
+
+.sidebar-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    color: var(--text-primary);
+    letter-spacing: -0.025em;
+}
+
+.domain-selector select {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-hover);
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    transition: all 0.2s;
+}
+
+.domain-selector select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.user-list h3 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: var(--spacing-xs);
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 12px;
+    /* Softer corners */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    /* Cleaner default */
+    margin-bottom: 0.25rem;
+    border: 1px solid transparent;
+}
+
+.user-item:hover {
+    background-color: var(--bg-hover);
+    transform: translateX(2px);
+}
+
+.user-item.active {
+    background-color: #eef2ff;
+    /* Very light indigo */
+    border-color: #e0e7ff;
+}
+
+.user-avatar {
+    width: 44px;
+    /* Slightly larger */
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 0.85rem;
+    background-color: #e5e7eb;
+    object-fit: cover;
+    box-shadow: var(--shadow-sm);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 0.1rem;
+}
+
+.user-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.user-snippet {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
