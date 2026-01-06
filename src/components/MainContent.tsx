@@ -163,7 +163,23 @@ ${exposureStr}
                             <div className="scrollable-list">
                                 {selectedUser.history.map((item, index) => (
                                     <div key={index} className="history-item-card">
-                                        {item.cover && <img src={item.cover} alt={item.title} className="item-cover" />}
+                                        {item.cover ? (
+                                            <img
+                                                src={item.cover}
+                                                alt={item.title}
+                                                className="item-cover"
+                                                onError={(e) => {
+                                                    const target = e.target as HTMLImageElement;
+                                                    target.style.display = 'none';
+                                                    const placeholder = document.createElement('div');
+                                                    placeholder.className = 'item-cover-placeholder';
+                                                    placeholder.innerHTML = '📚';
+                                                    target.parentNode?.insertBefore(placeholder, target);
+                                                }}
+                                            />
+                                        ) : (
+                                            <div className="item-cover-placeholder">📚</div>
+                                        )}
                                         <div className="history-content">
                                             <div className="history-main">
                                                 <span className="item-title">{item.title}</span>
@@ -187,7 +203,23 @@ ${exposureStr}
                                 {selectedUser.exposure_list.map((item, index) => (
                                     <div key={index} className="exposure-item-card">
                                         <span className="item-index">{String.fromCharCode(65 + index)}</span>
-                                        {item.cover && <img src={item.cover} alt={item.title} className="item-cover" />}
+                                        {item.cover ? (
+                                            <img
+                                                src={item.cover}
+                                                alt={item.title}
+                                                className="item-cover"
+                                                onError={(e) => {
+                                                    const target = e.target as HTMLImageElement;
+                                                    target.style.display = 'none';
+                                                    const placeholder = document.createElement('div');
+                                                    placeholder.className = 'item-cover-placeholder';
+                                                    placeholder.innerHTML = '🎬';
+                                                    target.parentNode?.insertBefore(placeholder, target);
+                                                }}
+                                            />
+                                        ) : (
+                                            <div className="item-cover-placeholder">🎬</div>
+                                        )}
                                         <div className="exposure-details">
                                             <div className="exposure-top">
                                                 <span className="item-title">{item.title}</span>
