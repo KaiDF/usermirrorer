@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import type { User, SimulationResult } from '../types';
 import { simulate } from '../api';
 import './MainContent.css';
@@ -14,9 +14,36 @@ interface ModelResult {
     loading: boolean;
 }
 
+const STIMULUS_FACTORS = "Internal States (Boredom, Hunger, Thirst, Fatigue/Restlessness, Emotional State, Curiosity, Need for Achievement, Inspiration), External Cues (Time of Day, Day of Week, Weather, Location, Social Factors, Special Occasion, Notification, Advertising, Financial Situation, Availability)";
+const KNOWLEDGE_FACTORS = "Product/Service Attributes (Price, Quality, Features, Convenience, Novelty, Brand Reputation, Personal Relevance (Functional, Thematic, Identity-Based), Emotional Appeal, Time Commitment, Risk), Information Source & Presentation (Visual Presentation, Recommendation Source, Review Content/Sentiment, Rating Score/Distribution, Social Proof), User's Prior Knowledge (Past Experience, User Preferences/History)";
+const EVALUATION_STYLES = "Logical, Intuitive, Impulsive, Habitual";
+
+const CoverImage = ({ src, alt, className, placeholderIcon }: { src: string, alt: string, className?: string, placeholderIcon: string }) => {
+    const [error, setError] = useState(false);
+
+    // Reset error when src changes
+    useEffect(() => {
+        setError(false);
+    }, [src]);
+
+    if (error || !src) {
+        return <div className="item-cover-placeholder">{placeholderIcon}</div>;
+    }
+
+    return (
+        <img
+            src={src}
+            alt={alt}
+            className={className}
+            onError={() => setError(true)}
+        />
+    );
+};
+
 export const MainContent: React.FC<MainContentProps> = ({ selectedUser }) => {
+    const timeoutRefs = useRef<ReturnType<typeof setTimeout>[]>([]);
     const [simState, setSimState] = useState<SimulationState>('IDLE');
-    const [prompt, setPrompt] = useState('');
+
 
     // Track results for 3 models
     const [teacherResult, setTeacherResult] = useState<ModelResult>({ result: null, loading: false });
@@ -26,11 +53,12 @@ export const MainContent: React.FC<MainContentProps> = ({ selectedUser }) => {
     // Reset when user changes
     useEffect(() => {
         if (selectedUser) {
+            timeoutRefs.current.forEach(clearTimeout);
+            timeoutRefs.current = [];
             setSimState('IDLE');
-            setPrompt('');
             resetResults();
             // Automatically start prompt construction to mimic original flow
-            startPromptConstruction(selectedUser);
+            startPromptConstruction();
         }
     }, [selectedUser]);
 
@@ -40,58 +68,9 @@ export const MainContent: React.FC<MainContentProps> = ({ selectedUser }) => {
         setFtResult({ result: null, loading: false });
     };
 
-    const startPromptConstruction = (user: User) => {
+    const startPromptConstruction = () => {
         setSimState('CONSTRUCTING');
         setTimeout(() => {
-            const stimulusFactors = `Internal States (Boredom, Hunger, Thirst, Fatigue/Restlessness, Emotional State, Curiosity, Need for Achievement, Inspiration), External Cues (Time of Day, Day of Week, Weather, Location, Social Factors, Special Occasion, Notification, Advertising, Financial Situation, Availability)`;
-            const knowledgeFactors = `Product/Service Attributes (Price, Quality, Features, Convenience, Novelty, Brand Reputation, Personal Relevance (Functional, Thematic, Identity-Based), Emotional Appeal, Time Commitment, Risk), Information Source & Presentation (Visual Presentation, Recommendation Source, Review Content/Sentiment, Rating Score/Distribution, Social Proof), User's Prior Knowledge (Past Experience, User Preferences/History)`;
-            const evaluationStyles = `Logical, Intuitive, Impulsive, Habitual`;
-
-            const profileStr = `User Profile:
-- Name: ${user.name}
-- Age: ${user.profile.age}
-- Gender: ${user.profile.gender}
-- Occupation: ${user.profile.occupation || 'N/A'}
-- Location: ${user.profile.location || 'N/A'}
-- Traits: ${user.profile.traits.join(', ')}`;
-
-            const exposureStr = `Exposure List:
-${user.exposure_list.map((item, i) => `${String.fromCharCode(65 + i)}. ${item.title} (${item.year}) - ${item.genre}`).join('\n')}`;
-
-            const newPrompt = `You are a sophisticated user behavior emulator, tasked with simulating user responses within a general recommendation context. Given a user profile and an exposure list, generate a detailed, first-person intent statement that reflects the user's behavior. Your simulations should be adapted for diverse recommendation domains such as media, businesses, and e-commerce.
-
-Intent Structure and Content:
-The intent should be structured as a logical progression through the following stages, each marked by a corresponding label:
-
-- Stimulus: [Describe the initial motivation or need that initiates the user's thought process. This should connect to their profile's spatial, temporal, thematic preferences, causal, and social factors.]
-  - Stimulus Factors: [List 1-3 most relevant factors from: ${stimulusFactors}].
-
-- Knowledge: [Describe the user's thought process as they gain knowledge from the exposure list. Highlight specific attributes of the options that resonate with the user's preferences, drawing on the user profile.]
-  - Knowledge Factors: [List 2-4 most influential factors from: ${knowledgeFactors}].
-
-- Evaluation: [Explain the user's internal justification for their preference.]
-  - Evaluation Style: [Specify 1 style of the evaluation process, such as ${evaluationStyles}].
-
-Output Format:
-Thought:
--Stimulus: [Stimulus Description]
--Stimulus Factors: [Factor 1], [Factor 2]
--Knowledge: [Knowledge Description]
--Knowledge Factors: [Factor 1], [Factor 2], [Factor 3]
--Evaluation: [Evaluation Description]
--Evaluation Style: [Evaluation Style]
-Behavior: [Behavior]
-
-Constraints:
-- While multiple behaviors might be considered in the early stages, the final intent and decision should align with a single behavior.
-- The behavior can be represented by a single label from the choices in the exposure list, enclosed in square brackets (e.g., [X]).
-- Use "I" to reflect the first-person perspective of the user.
-
-${profileStr}
-
-${exposureStr}
-`;
-            setPrompt(newPrompt);
             setSimState('READY');
         }, 1200);
     };
@@ -107,16 +86,43 @@ ${exposureStr}
         setFtResult({ result: null, loading: true });
 
         try {
-            // Run in parallel
-            const [r1, r2, r3] = await Promise.all([
-                simulate(selectedUser.history, selectedUser.exposure_list.map(i => i.title), 'Teacher Model', prompt),
-                simulate(selectedUser.history, selectedUser.exposure_list.map(i => i.title), 'Student Model', prompt),
-                simulate(selectedUser.history, selectedUser.exposure_list.map(i => i.title), 'Fine-tuned Student', prompt)
-            ]);
+            // Teacher and Student use static outputs from mock data
+            if (selectedUser.modelOutputs) {
+                const outputs = selectedUser.modelOutputs;
+                const t1 = setTimeout(() => {
+                    setTeacherResult({ result: outputs.teacher, loading: false });
+                }, 2500 + Math.random() * 2000);
+                timeoutRefs.current.push(t1);
 
-            setTeacherResult({ result: r1, loading: false });
-            setStudentResult({ result: r2, loading: false });
-            setFtResult({ result: r3, loading: false });
+                const t2 = setTimeout(() => {
+                    setStudentResult({ result: outputs.student, loading: false });
+                }, 2000 + Math.random() * 2000);
+                timeoutRefs.current.push(t2);
+            } else {
+                // Fallback to API if no static outputs available
+                const [r1, r2] = await Promise.all([
+                    simulate(selectedUser.history, selectedUser.exposure_list.map(i => i.title), 'Teacher Model', selectedUser.rawProfile),
+                    simulate(selectedUser.history, selectedUser.exposure_list.map(i => i.title), 'Student Model', selectedUser.rawProfile)
+                ]);
+                setTeacherResult({ result: r1, loading: false });
+                setStudentResult({ result: r2, loading: false });
+            }
+
+            // Fine-tuned model always calls API
+            let ftModelResult = await simulate(
+                selectedUser.history,
+                selectedUser.exposure_list.map(i => i.title),
+                'Fine-tuned Student',
+                selectedUser.rawProfile
+            );
+
+            // Fallback to locally cached result if API fails
+            if (ftModelResult.behavior === 'Error' && selectedUser.modelOutputs && selectedUser.modelOutputs['Fine-tuned_model']) {
+                console.warn('Fine-tuned model API failed. Using cached output from user profile.');
+                ftModelResult = selectedUser.modelOutputs['Fine-tuned_model'];
+            }
+
+            setFtResult({ result: ftModelResult, loading: false });
 
             setSimState('COMPLETED');
         } catch (e) {
@@ -163,23 +169,12 @@ ${exposureStr}
                             <div className="scrollable-list">
                                 {selectedUser.history.map((item, index) => (
                                     <div key={index} className="history-item-card">
-                                        {item.cover ? (
-                                            <img
-                                                src={item.cover}
-                                                alt={item.title}
-                                                className="item-cover"
-                                                onError={(e) => {
-                                                    const target = e.target as HTMLImageElement;
-                                                    target.style.display = 'none';
-                                                    const placeholder = document.createElement('div');
-                                                    placeholder.className = 'item-cover-placeholder';
-                                                    placeholder.innerHTML = '📚';
-                                                    target.parentNode?.insertBefore(placeholder, target);
-                                                }}
-                                            />
-                                        ) : (
-                                            <div className="item-cover-placeholder">📚</div>
-                                        )}
+                                        <CoverImage
+                                            src={item.cover || ''}
+                                            alt={item.title}
+                                            className="item-cover"
+                                            placeholderIcon="📚"
+                                        />
                                         <div className="history-content">
                                             <div className="history-main">
                                                 <span className="item-title">{item.title}</span>
@@ -203,23 +198,12 @@ ${exposureStr}
                                 {selectedUser.exposure_list.map((item, index) => (
                                     <div key={index} className="exposure-item-card">
                                         <span className="item-index">{String.fromCharCode(65 + index)}</span>
-                                        {item.cover ? (
-                                            <img
-                                                src={item.cover}
-                                                alt={item.title}
-                                                className="item-cover"
-                                                onError={(e) => {
-                                                    const target = e.target as HTMLImageElement;
-                                                    target.style.display = 'none';
-                                                    const placeholder = document.createElement('div');
-                                                    placeholder.className = 'item-cover-placeholder';
-                                                    placeholder.innerHTML = '🎬';
-                                                    target.parentNode?.insertBefore(placeholder, target);
-                                                }}
-                                            />
-                                        ) : (
-                                            <div className="item-cover-placeholder">🎬</div>
-                                        )}
+                                        <CoverImage
+                                            src={item.cover || ''}
+                                            alt={item.title}
+                                            className="item-cover"
+                                            placeholderIcon="🎬"
+                                        />
                                         <div className="exposure-details">
                                             <div className="exposure-top">
                                                 <span className="item-title">{item.title}</span>
@@ -238,12 +222,93 @@ ${exposureStr}
                 {(simState !== 'IDLE' && simState !== 'CONSTRUCTING') && (
                     <div className="prompt-section">
                         <h3>Simulation Prompt</h3>
-                        <textarea
-                            className="prompt-textarea"
-                            value={prompt}
-                            onChange={(e) => setPrompt(e.target.value)}
-                            disabled={simState === 'RUNNING'}
-                        />
+                        <div className="prompt-display">
+                            <p>You are a sophisticated user behavior emulator, tasked with simulating user responses within a general recommendation context. Given a user profile and an exposure list, generate a detailed, first-person intent statement that reflects the user's behavior. Your simulations should be adapted for diverse recommendation domains such as media, businesses, and e-commerce.</p>
+
+                            <h4>Intent Structure and Content:</h4>
+                            <p style={{ fontStyle: 'italic' }}>The intent should be structured as a logical progression through the following stages, each marked by a corresponding label:</p>
+
+                            <ul style={{ listStyle: 'none', paddingLeft: '0' }}>
+                                <li className="prompt-list-item">
+                                    <span className="prompt-main-label">• Stimulus: </span>
+                                    <span>[Describe the initial motivation or need that initiates the user's thought process. This should connect to their profile's spatial, temporal, thematic preferences, causal, and social factors.]</span>
+                                    <div className="prompt-sub-list">
+                                        <div className="prompt-sub-item">
+                                            <span className="prompt-sub-label">– Stimulus Factors: </span>
+                                            <span>[List 1-3 most relevant factors from: <span className="blue-text">{STIMULUS_FACTORS}</span>].</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li className="prompt-list-item">
+                                    <span className="prompt-main-label">• Knowledge: </span>
+                                    <span>[Describe the user's thought process as they gain knowledge from the exposure list. Highlight specific attributes of the options that resonate with the user's preferences, drawing on the user profile.]</span>
+                                    <div className="prompt-sub-list">
+                                        <div className="prompt-sub-item">
+                                            <span className="prompt-sub-label">– Knowledge Factors: </span>
+                                            <span>[List 2-4 most influential factors from: <span className="blue-text">{KNOWLEDGE_FACTORS}</span>].</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li className="prompt-list-item">
+                                    <span className="prompt-main-label">• Evaluation: </span>
+                                    <span>[Explain the user's internal justification for their preference.]</span>
+                                    <div className="prompt-sub-list">
+                                        <div className="prompt-sub-item">
+                                            <span className="prompt-sub-label">– Evaluation Style: </span>
+                                            <span>[Specify 1 style of the evaluation process, such as <span className="blue-text">{EVALUATION_STYLES}</span>].</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h4>Output Format:</h4>
+                            <div style={{ background: '#f8f9fa', padding: '1rem', borderRadius: '8px', fontFamily: 'monospace', fontSize: '0.9em' }}>
+                                <div><strong>Thought:</strong></div>
+                                <div>-Stimulus: [Stimulus Description]</div>
+                                <div>-Stimulus Factors: [Factor 1], [Factor 2]</div>
+                                <div>-Knowledge: [Knowledge Description]</div>
+                                <div>-Knowledge Factors: [Factor 1], [Factor 2], [Factor 3]</div>
+                                <div>-Evaluation: [Evaluation Description]</div>
+                                <div>-Evaluation Style: [Evaluation Style]</div>
+                                <div><strong>Behavior:</strong> [Behavior]</div>
+                            </div>
+
+                            <h4>Constraints:</h4>
+                            <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem' }}>
+                                <li>While multiple behaviors might be considered in the early stages, the final intent and decision should align with a <strong>single</strong> behavior.</li>
+                                <li>The behavior can be represented by a single label from the choices in the exposure list, enclosed in square brackets (e.g., [X]).</li>
+                                <li>Use "I" to reflect the first-person perspective of the user.</li>
+                            </ul>
+
+                            {/* Dynamic User Data Section */}
+                            <div className="prompt-data-section">
+                                <h4 className="red-text">{'User Profile'}</h4>
+                                <div style={{ background: '#fff3f3', padding: '1rem', borderRadius: '8px', marginBottom: '1rem' }}>
+                                    <div>- Name: {selectedUser.name}</div>
+                                    <div>- Age: {selectedUser.profile.age}</div>
+                                    <div>- Gender: {selectedUser.profile.gender}</div>
+                                    <div>- Occupation: {selectedUser.profile.occupation || 'N/A'}</div>
+                                    <div>- Location: {selectedUser.profile.location || 'N/A'}</div>
+                                    <div>- Traits: {selectedUser.profile.traits.join(', ')}</div>
+                                </div>
+
+                                <h4 className="red-text">{'Interaction History'}</h4>
+                                <div style={{ background: '#fff3f3', padding: '1rem', borderRadius: '8px' }}>
+                                    {selectedUser.history.map((item, i) => (
+                                        <div key={i}>{i + 1}. {item.title} ({item.year}) - {item.genre}</div>
+                                    ))}
+                                </div>
+
+                                <h4 className="red-text">{'Exposure List'}</h4>
+                                <div style={{ background: '#fff3f3', padding: '1rem', borderRadius: '8px' }}>
+                                    {selectedUser.exposure_list.map((item, i) => (
+                                        <div key={i}>{String.fromCharCode(65 + i)}. {item.title} ({item.year}) - {item.genre}</div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
                         <button
                             className="btn-primary"
                             onClick={handleSimulate}
@@ -263,10 +328,29 @@ ${exposureStr}
 
                 {/* 3 Model Grid */}
                 {(simState === 'RUNNING' || simState === 'COMPLETED') && (
-                    <div className="models-grid">
-                        <ModelCard name="Teacher Model" data={teacherResult} color="#4CAF50" />
-                        <ModelCard name="Student Model" data={studentResult} color="#2196F3" />
-                        <ModelCard name="Fine-tuned Student" data={ftResult} color="#9C27B0" />
+                    <div className="results-wrapper">
+                        {selectedUser.groundTruth && (
+                            <div className="ground-truth-section">
+                                <div className="ground-truth-label">
+                                    <span>🎯 Ground Truth Behavior:</span>
+                                </div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                                    <span className="ground-truth-details">
+                                        {(() => {
+                                            const index = selectedUser.groundTruth!.charCodeAt(0) - 65;
+                                            const item = selectedUser.exposure_list[index];
+                                            return item ? `${item.title} (${item.year})` : '';
+                                        })()}
+                                    </span>
+                                    <span className="ground-truth-value">[{selectedUser.groundTruth}]</span>
+                                </div>
+                            </div>
+                        )}
+                        <div className="models-grid">
+                            <ModelCard name={<div>Teacher Model<br />(Qwen2.5-32B-Instruct)</div>} data={teacherResult} color="#4CAF50" />
+                            <ModelCard name={<div>Student Model<br />(Llama-3.2-3B-Instruct)</div>} data={studentResult} color="#2196F3" />
+                            <ModelCard name={<div>Fine-tuned Student Model<br />(Llama-3.2-3B-Instruct with SFT&DPO)</div>} data={ftResult} color="#9C27B0" />
+                        </div>
                     </div>
                 )}
             </div>
@@ -274,7 +358,7 @@ ${exposureStr}
     );
 };
 
-const ModelCard = ({ name, data, color }: { name: string, data: ModelResult, color: string }) => {
+const ModelCard = ({ name, data, color }: { name: React.ReactNode, data: ModelResult, color: string }) => {
     return (
         <div className="model-card" style={{ borderTopColor: color }}>
             <div className="model-header">

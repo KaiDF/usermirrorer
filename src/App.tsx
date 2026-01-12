@@ -1,20 +1,38 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import { Sidebar } from './components/Sidebar';
 import { MainContent } from './components/MainContent';
-import { MOCK_USERS, type User } from './types';
+import type { User } from './types';
+import { getAllUsers } from './utils/dataLoader';
 
 function App() {
-    const [activeDomain, setActiveDomain] = useState<'Books' | 'Movie'>('Books');
+    const [activeDomain, setActiveDomain] = useState<'Books' | 'Movie' | ''>('');
     const [selectedUser, setSelectedUser] = useState<User | null>(null);
+    const [users, setUsers] = useState<User[]>([]);
+    const [loading, setLoading] = useState(true);
 
-    // Filter users or just pass all depending on Sidebar logic. 
-    // Sidebar handles filtering by domain, but current mock data has domains.
+    useEffect(() => {
+        const loadUsers = async () => {
+            try {
+                const loadedUsers = await getAllUsers();
+                setUsers(loadedUsers);
+            } catch (error) {
+                console.error('Failed to load users:', error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        loadUsers();
+    }, []);
+
+    if (loading) {
+        return <div className="app-container loading">Loading...</div>;
+    }
 
     return (
         <div className="app-container">
             <Sidebar
-                users={MOCK_USERS}
+                users={users}
                 selectedDomain={activeDomain}
                 onSelectDomain={setActiveDomain}
                 selectedUser={selectedUser}
@@ -29,3 +47,4 @@ function App() {
 }
 
 export default App;
+

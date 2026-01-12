@@ -71,3 +71,10 @@ export default defineConfig([
   },
 ])
 ```
+  location ^~ /v1/ {
+    allow 101.200.33.46;     # 你的公网IP
+    allow 127.0.0.1;   # 服务器本机（可选，便于自测）
+    deny all;
+
+    proxy_pass http://127.0.0.1:6006/v1/;
+  }

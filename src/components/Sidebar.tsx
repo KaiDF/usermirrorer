@@ -4,8 +4,8 @@ import './Sidebar.css';
 
 interface SidebarProps {
     users: User[];
-    selectedDomain: 'Books' | 'Movie';
-    onSelectDomain: (domain: 'Books' | 'Movie') => void;
+    selectedDomain: 'Books' | 'Movie' | '';
+    onSelectDomain: (domain: 'Books' | 'Movie' | '') => void;
     selectedUser: User | null;
     onSelectUser: (user: User) => void;
 }
@@ -20,7 +20,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     const [isCollapsed, setIsCollapsed] = useState(false);
     const filteredUsers = users.filter((u) => u.domain === selectedDomain);
 
-    const domainIcon = selectedDomain === 'Books' ? '📚' : '🎬';
+    const domainIcon = selectedDomain === 'Books' ? '📚' : selectedDomain === 'Movie' ? '🎬' : '🌐';
 
     return (
         <div className={`sidebar ${isCollapsed ? 'collapsed' : ''}`}>
@@ -44,8 +44,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
                                 <span className="select-icon">{domainIcon}</span>
                                 <select
                                     value={selectedDomain}
-                                    onChange={(e) => onSelectDomain(e.target.value as 'Books' | 'Movie')}
+                                    onChange={(e) => onSelectDomain(e.target.value as 'Books' | 'Movie' | '')}
                                 >
+                                    <option value="" disabled>Choose Domain</option>
                                     <option value="Books">Books</option>
                                     <option value="Movie">Movie</option>
                                 </select>

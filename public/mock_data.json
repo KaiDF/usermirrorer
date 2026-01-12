@@ -1,0 +1,1028 @@
+{
+    "domains": {
+        "Books": {
+            "users": [
+                {
+                    "id": "books_user_1",
+                    "name": "Neil Gaiman Fan",
+                    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=NeilFan",
+                    "domain": "Books",
+                    "rawProfile": "# User Profile\n\n\n## History\nA book viewed 5 minutes ago\nTitle:The Books of Magic (1990-) #1 (['comics, graphic', 'fantasy, paranormal']) \nDescription: O garoto Tim Hunter esta prestes a viajar por um mundo desconhecido e perigoso. Ele possui poderes especiais e junto de quatros emissarios ira para o inicio de tudo. Roteiro de Neil Gaiman e arte de John Bolton.\nAuthor: Neil Gaiman/John Bolton (Artist)\nPublished at 2002 - Opera Graphica - 52 pages\nRating: 4.15 - 7 ratings\nMy Behavior: Read\nRating: 5.0\n\nA book viewed 5 minutes ago\nTitle:The Books of Magic (1990-) #4 (['comics, graphic', 'fantasy, paranormal']) \nDescription: \nAuthor: Neil Gaiman/Paul Johnson (Illustrator)\nPublished at  - NA - NA pages\nRating: 4.4 - 10 ratings\nMy Behavior: Read\nRating: 5.0\n\nA book viewed 4 minutes ago\nTitle:Mr. Punch (['comics, graphic', 'fantasy, paranormal', 'fiction', 'mystery, thriller, crime', 'history, historical fiction, biography']) \nDescription: A dark and frightening fully painted novella, MR. PUNCH tells the tale of a young boy's loss of innocence results from a horrific confrontation with his past. Spending a summer at his grandfather's seaside arcade, a troubled adolescent harmlessly becomes involved with a mysterious Punch and Judy Man and a...\nAuthor: Neil Gaiman/Dave McKean (Illustrations)\nPublished at 2017 - Vertigo - 160 pages\nRating: 3.78 - 11 ratings\nMy Behavior: Read\nRating: 4.0\n\nA book viewed 2 minutes ago\nTitle:Neil Gaiman's Neverwhere (['fantasy, paranormal', 'comics, graphic', 'fiction', 'young-adult', 'mystery, thriller, crime']) \nDescription: Graphic adaptation of Neil Gaiman's Neverwhere collects all nine issues of the Vertigo maxiseries.\nAn ordinary Londoner stops to help an enigmatic girl and joins a battle to save the strange underworld kingdom of London Below from destruction.\nAuthor: Mike Carey/Glenn Fabry (Illustrator)/Neil Gaiman\nPublished at 2007 - Vertigo - 224 pages\nRating: 4.22 - 29775 ratings\nMy Behavior: Read\nRating: 4.0\n\nA book viewed 2 minutes ago\nTitle:Coraline (Illustrated/Graphic Novel Edition) (['comics, graphic', 'fantasy, paranormal', 'young-adult', 'fiction', 'children', 'mystery, thriller, crime']) \nDescription: When Coraline steps through a door in her family's new house, she finds another house, strangely similar to her own (only better). At first, things seem marvelous. The food is better than at home, and the toy box is filled with fluttering wind-up angels and dinosaur skulls that crawl and...\nAuthor: Neil Gaiman/P. Craig Russell (Adaptor/Illustrator)\nPublished at 2008 - HarperCollins - 192 pages\nRating: 3.96 - 15293 ratings\nMy Behavior: Read\nRating: 4.0\n\nA book viewed 1 minute ago\nTitle:The Sandman: King of Dreams (['comics, graphic', 'fantasy, paranormal', 'fiction', 'non-fiction', 'history, historical fiction, biography']) \nDescription: The first and only comic book to receive the World Fantasy Award, The Sandmancontinues to break new ground in the comic book medium and beyond. Author Alisa Kwitney explores its beginnings and chronicles the comic's emergence as a unique and undeniable force in the literary world. Richly illustrated, this history...\nAuthor: Alisa Kwitney/Neil Gaiman (introduction)\nPublished at 2003 - Chronicle Books - 180 pages\nRating: 4.61 - 11702 ratings\nMy Behavior: Read\nRating: 5.0\n\nA book viewed 1 minute ago\nTitle:Lucifer, Vol. 1: Devil in the Gateway (['comics, graphic', 'fantasy, paranormal', 'fiction']) \nDescription: From the pages of THE SANDMAN, Lucifer Morningstar, the former Lord of Hell, is unexpectedly called back into action when he receives a mission from Heaven. Given free reign to use any means necessary, Lucifer is promised a prize of his own choosing if he fulfills this holy request. But...\nAuthor: Mike Carey/Scott Hampton (Illustrator)/Chris Weston (Illustrator)/James Hodgkins (Illustrator)/Warren Pleece (Illustrator)/Dean Ormston (Illustrator)/Neil Gaiman (Foreword)\nPublished at 2001 - Vertigo - 160 pages\nRating: 4.07 - 10820 ratings\nMy Behavior: Read\nRating: 4.0\n\nA book viewed just now\nTitle:Preacher, Volume 1: Gone to Texas (['comics, graphic', 'fantasy, paranormal', 'fiction', 'mystery, thriller, crime']) \nDescription: One of the most celebrated comics titles of the late 1990s, PREACHER is a modern American epic of life, death, love and redemption also packed with sex, booze, blood and bullets - not to mention angels, demons, God, vampires and deviants of all stripes. At first glance, the Reverend Jesse...\nAuthor: Garth Ennis/Steve Dillon (Illustrator)/Joe R. Lansdale (Introduction)\nPublished at 1996 - Vertigo - 336 pages\nRating: 4.16 - 52998 ratings\nMy Behavior: Read\nRating: 5.0\n\nA book viewed just now\nTitle:Preacher, Volume 2: Until the End of the World (['fiction', 'comics, graphic', 'fantasy, paranormal', 'mystery, thriller, crime', 'romance']) \nDescription: Continuing the new editions of the classic PREACHER trade paperbacks! This volume contains PREACHER #8-17. In this continuing saga of the bizarre life of a faithless Texas preacher, Jesse Custer heads to the south to confront the extremely dysfunctional family that abused him as a child and planted the original...\nAuthor: Garth Ennis/Steve Dillon (Illustrator)\nPublished at 1997 - Vertigo - 258 pages\nRating: 4.27 - 24799 ratings\nMy Behavior: Read\nRating: 5.0\n\nA book viewed just now\nTitle:Preacher, Volume 3: Proud Americans (['comics, graphic', 'fiction', 'fantasy, paranormal', 'mystery, thriller, crime']) \nDescription: The third amazing new edition in the PREACHER series, collecting issues #18-26. Jesse Custer heads for France to rescue Cassidy, the Irish vampire, from the clutches of religious fanatics. His search leads him into a no-holds-barred battle against the forces of the Grail. Also told here is the story of...\nAuthor: Garth Ennis/Steve Dillon (Illustrator)/Penn Jillette (Introduction)\nPublished at 1997 - Vertigo - 232 pages\nRating: 4.27 - 19675 ratings\nMy Behavior: Read\nRating: 5.0\n\n\n# Exposure List\n[A] Title:Batman: The Long Halloween (['comics, graphic']) \nAuthor: Jeph Loeb\nPublished at 1999 - DC Comics - 376 pages\nRating: 4.0 - 6 ratings\n\n[B] Title:The Art of Eric Stanton. For the Man Who Knows His Place (['comics, graphic', 'fantasy, paranormal']) \nAuthor: Eric Stanton/Erik Kroll, ed./Eric Kroll\nPublished at 1997 - Taschen - 350 pages\nRating: 4.29 - 35 ratings\n\n[C] Title:Preacher, Volume 6: War in the Sun (['comics, graphic', 'fiction', 'fantasy, paranormal', 'mystery, thriller, crime']) \nAuthor: Garth Ennis/Steve Dillon (Illustrator)/Peter Snejbjerg (Illustrator)\nPublished at 1999 - Vertigo - 240 pages\nRating: 4.34 - 16890 ratings",
+                    "profile": {
+                        "gender": "unknown",
+                        "age": "unknown",
+                        "occupation": "Book Enthusiast",
+                        "location": "unknown",
+                        "traits": [
+                            "comics, graphic",
+                            "fantasy, paranormal",
+                            "fiction",
+                            "Neil Gaiman Fan"
+                        ]
+                    },
+                    "history": [
+                        {
+                            "title": "The Books of Magic (1990-) #1",
+                            "year": "2002",
+                            "genre": "comics, graphic | fantasy, paranormal",
+                            "rating": "5.0/5.0",
+                            "description": "O garoto Tim Hunter esta prestes a viajar por um mundo desconhecido e perigoso. Ele possui poderes especiais e junto de quatros emissarios ira para o inicio de tudo. Roteiro de Neil Gaiman e arte de John Bolton.",
+                            "author": "Neil Gaiman/John Bolton (Artist)",
+                            "publishedAt": "2002 - Opera Graphica",
+                            "pages": "52",
+                            "globalRating": "4.15 - 7 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://static.wikia.nocookie.net/marvel_dc/images/c/c2/The_Books_of_Magic_Vol_1_1.jpg"
+                        },
+                        {
+                            "title": "The Books of Magic (1990-) #4",
+                            "year": "N/A",
+                            "genre": "comics, graphic | fantasy, paranormal",
+                            "rating": "5.0/5.0",
+                            "description": "",
+                            "author": "Neil Gaiman/Paul Johnson (Illustrator)",
+                            "publishedAt": "N/A",
+                            "pages": "N/A",
+                            "globalRating": "4.4 - 10 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://static.wikia.nocookie.net/marvel_dc/images/4/44/The_Books_of_Magic_Vol_1_4.jpg"
+                        },
+                        {
+                            "title": "Mr. Punch",
+                            "year": "2017",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction | mystery, thriller, crime | history, historical fiction, biography",
+                            "rating": "4.0/5.0",
+                            "description": "A dark and frightening fully painted novella, MR. PUNCH tells the tale of a young boy's loss of innocence results from a horrific confrontation with his past.",
+                            "author": "Neil Gaiman/Dave McKean (Illustrations)",
+                            "publishedAt": "2017 - Vertigo",
+                            "pages": "160",
+                            "globalRating": "3.78 - 11 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://static.wikia.nocookie.net/marvel_dc/images/7/78/Mr._Punch.jpg"
+                        },
+                        {
+                            "title": "Neil Gaiman's Neverwhere",
+                            "year": "2007",
+                            "genre": "fantasy, paranormal | comics, graphic | fiction | young-adult | mystery, thriller, crime",
+                            "rating": "4.0/5.0",
+                            "description": "Graphic adaptation of Neil Gaiman's Neverwhere collects all nine issues of the Vertigo maxiseries.",
+                            "author": "Mike Carey/Glenn Fabry (Illustrator)/Neil Gaiman",
+                            "publishedAt": "2007 - Vertigo",
+                            "pages": "224",
+                            "globalRating": "4.22 - 29775 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://static.wikia.nocookie.net/marvel_dc/images/9/9a/Neil_Gaiman%27s_Neverwhere.jpg"
+                        },
+                        {
+                            "title": "Coraline (Illustrated/Graphic Novel Edition)",
+                            "year": "2008",
+                            "genre": "comics, graphic | fantasy, paranormal | young-adult | fiction | children | mystery, thriller, crime",
+                            "rating": "4.0/5.0",
+                            "description": "When Coraline steps through a door in her family's new house, she finds another house, strangely similar to her own (only better).",
+                            "author": "Neil Gaiman/P. Craig Russell (Adaptor/Illustrator)",
+                            "publishedAt": "2008 - HarperCollins",
+                            "pages": "192",
+                            "globalRating": "3.96 - 15293 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://m.media-amazon.com/images/I/81cb0ndqvyL._SL300_.jpg"
+                        },
+                        {
+                            "title": "The Sandman: King of Dreams",
+                            "year": "2003",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction | non-fiction | history, historical fiction, biography",
+                            "rating": "5.0/5.0",
+                            "description": "The first and only comic book to receive the World Fantasy Award.",
+                            "author": "Alisa Kwitney/Neil Gaiman (introduction)",
+                            "publishedAt": "2003 - Chronicle Books",
+                            "pages": "180",
+                            "globalRating": "4.61 - 11702 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://m.media-amazon.com/images/I/81YRLrFu+GL._SL300_.jpg"
+                        },
+                        {
+                            "title": "Lucifer, Vol. 1: Devil in the Gateway",
+                            "year": "2001",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction",
+                            "rating": "4.0/5.0",
+                            "description": "From the pages of THE SANDMAN, Lucifer Morningstar, the former Lord of Hell, is unexpectedly called back into action.",
+                            "author": "Mike Carey/Scott Hampton (Illustrator)/Neil Gaiman (Foreword)",
+                            "publishedAt": "2001 - Vertigo",
+                            "pages": "160",
+                            "globalRating": "4.07 - 10820 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://m.media-amazon.com/images/I/91nftVNWrqL._SL300_.jpg"
+                        },
+                        {
+                            "title": "Preacher, Volume 1: Gone to Texas",
+                            "year": "1996",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction | mystery, thriller, crime",
+                            "rating": "5.0/5.0",
+                            "description": "One of the most celebrated comics titles of the late 1990s, PREACHER is a modern American epic.",
+                            "author": "Garth Ennis/Steve Dillon (Illustrator)",
+                            "publishedAt": "1996 - Vertigo",
+                            "pages": "336",
+                            "globalRating": "4.16 - 52998 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://m.media-amazon.com/images/I/81x2EFKXVfL._SL300_.jpg"
+                        },
+                        {
+                            "title": "Preacher, Volume 2: Until the End of the World",
+                            "year": "1997",
+                            "genre": "fiction | comics, graphic | fantasy, paranormal | mystery, thriller, crime | romance",
+                            "rating": "5.0/5.0",
+                            "description": "Continuing the new editions of the classic PREACHER trade paperbacks!",
+                            "author": "Garth Ennis/Steve Dillon (Illustrator)",
+                            "publishedAt": "1997 - Vertigo",
+                            "pages": "258",
+                            "globalRating": "4.27 - 24799 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://m.media-amazon.com/images/I/71BkThFwlNL._SL300_.jpg"
+                        },
+                        {
+                            "title": "Preacher, Volume 3: Proud Americans",
+                            "year": "1997",
+                            "genre": "comics, graphic | fiction | fantasy, paranormal | mystery, thriller, crime",
+                            "rating": "5.0/5.0",
+                            "description": "The third amazing new edition in the PREACHER series.",
+                            "author": "Garth Ennis/Steve Dillon (Illustrator)/Penn Jillette (Introduction)",
+                            "publishedAt": "1997 - Vertigo",
+                            "pages": "232",
+                            "globalRating": "4.27 - 19675 ratings",
+                            "myBehavior": "Read",
+                            "cover": "https://m.media-amazon.com/images/I/718l8bCUWCL._SL300_.jpg"
+                        }
+                    ],
+                    "exposureList": [
+                        {
+                            "label": "A",
+                            "title": "Batman: The Long Halloween",
+                            "year": "1999",
+                            "genre": "comics, graphic",
+                            "author": "Jeph Loeb",
+                            "publishedAt": "1999 - DC Comics",
+                            "pages": "376",
+                            "rating": "4.0 - 6 ratings",
+                            "cover": "https://m.media-amazon.com/images/I/81oxI3fwvlL._SL300_.jpg"
+                        },
+                        {
+                            "label": "B",
+                            "title": "The Art of Eric Stanton. For the Man Who Knows His Place",
+                            "year": "1997",
+                            "genre": "comics, graphic | fantasy, paranormal",
+                            "author": "Eric Stanton/Erik Kroll, ed./Eric Kroll",
+                            "publishedAt": "1997 - Taschen",
+                            "pages": "350",
+                            "rating": "4.29 - 35 ratings",
+                            "cover": "https://m.media-amazon.com/images/I/81Z+1Eqf+zL._SL300_.jpg"
+                        },
+                        {
+                            "label": "C",
+                            "title": "Preacher, Volume 6: War in the Sun",
+                            "year": "1999",
+                            "genre": "comics, graphic | fiction | fantasy, paranormal | mystery, thriller, crime",
+                            "author": "Garth Ennis/Steve Dillon (Illustrator)/Peter Snejbjerg (Illustrator)",
+                            "publishedAt": "1999 - Vertigo",
+                            "pages": "240",
+                            "rating": "4.34 - 16890 ratings",
+                            "cover": "https://m.media-amazon.com/images/I/51YCVQtyjIL._SY445_SX342_FMwebp_.jpg"
+                        }
+                    ],
+                    "groundTruth": "C",
+                    "modelOutputs": {
+                        "teacher": {
+                            "stimulus": {
+                                "text": "I'm in the mood to explore more comics and graphic novels, particularly those that blend elements of fantasy and crime. The recent viewing of various Neil Gaiman and Preacher volumes has piqued my interest in continuing my journey into this genre.",
+                                "factors": "Internal States (Curiosity), External Cues (Recent Exposure to Graphic Novels)"
+                            },
+                            "knowledge": {
+                                "text": "The exposure list includes several options, but 'Preacher, Volume 6: War in the Sun' stands out due to its high rating and the continuation of a series I've been enjoying. The thematic elements of fantasy and crime, along with the familiar authors, align well with my current preferences.",
+                                "factors": "Product/Service Attributes (Quality, Features, Novelty), Information Source & Presentation (Rating Score/Distribution, Review Content/Sentiment)"
+                            },
+                            "evaluation": {
+                                "text": "I feel a strong pull towards 'Preacher, Volume 6: War in the Sun' as it seems to offer a rich narrative experience that builds upon the stories I've already enjoyed. The high ratings and positive reviews further confirm my inclination.",
+                                "style": "Logical"
+                            },
+                            "behavior": "C"
+                        },
+                        "student": {
+                            "stimulus": {
+                                "text": "I'm looking for my next great read, and I've been thinking about diving into the world of comics and graphic novels. I've recently read some fantastic books in this genre, including Neil Gaiman's The Books of Magic and Mr. Punch, which have really sparked my interest.",
+                                "factors": "My history of reading Neil Gaiman's works, my interest in fantasy, paranormal, and graphic novels, and my desire to explore new authors and series."
+                            },
+                            "knowledge": {
+                                "text": "I've been browsing through my exposure list and I've come across a few titles that catch my eye. Batman: The Long Halloween by Jeph Loeb looks intriguing, but I've also been interested in reading more of Eric Stanton's work, particularly The Art of Eric Stanton. For the Man Who Knows His Place.",
+                                "factors": "The themes and genres of the titles, my prior knowledge of the authors and series, and my interest in exploring new authors and styles."
+                            },
+                            "evaluation": {
+                                "text": "I think I'd like to read something that combines elements of fantasy, paranormal, and graphic novels. Batman: The Long Halloween seems like a great choice, but I'm also drawn to The Art of Eric Stanton. For the Man Who Knows His Place, which looks like a unique and visually stunning collection.",
+                                "style": "Logical and thematic"
+                            },
+                            "behavior": "B"
+                        },
+                        "Fine-tuned_model": {
+                            "stimulus": {
+                                "text": "I am looking for my next comic book to read, specifically one that continues a series I have already enjoyed. The recent viewing of several Preacher volumes has left me eager to continue the journey of Jesse Custer and his companions.",
+                                "factors": "Internal States (Curiosity, Need for Achievement), External Cues (Past Experience, User Preferences/History)"
+                            },
+                            "knowledge": {
+                                "text": "Upon reviewing the exposure list, I am particularly drawn to 'Preacher, Volume 6: War in the Sun' as it continues the series I have been following. The high rating and the continuation of the story I have grown to love make this option stand out. I also appreciate the consistent quality and storytelling of Garth Ennis and Steve Dillon.",
+                                "factors": "Product/Service Attributes (Personal Relevance, Emotional Appeal, Quality, Brand Reputation), Information Source & Presentation (Rating Score/Distribution, Review Content/Sentiment)"
+                            },
+                            "evaluation": {
+                                "text": "I find the continuity and quality of the Preacher series to be compelling, and 'Preacher, Volume 6: War in the Sun' aligns perfectly with my current interests and reading preferences. The high ratings and positive reviews further solidify my decision to continue this series.",
+                                "style": "Logical"
+                            },
+                            "behavior": "C"
+                        }
+                    }
+                },
+                {
+                    "id": "books_user_2",
+                    "name": "Cincinnati",
+                    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Cincinnati",
+                    "domain": "Books",
+                    "rawProfile": "# User Profile\n\n\n## History\nA book viewed 13 days ago\nTitle:Kingdom Come (['comics, graphic', 'fiction', 'fantasy, paranormal', 'history, historical fiction, biography']) \nDescription: Winner of five Eisner and Harvey Awards, KINGDOM COME is the best-selling graphic novel from acclaimed writer Mark Waid and superstar painter Alex Ross. Set just after the dawn of the 21st Century, in a world spinning inexorably out of control, comes this grim tale of youth versus experience, a...\nAuthor: Mark Waid/Alex Ross (Illustrator)/Elliot S. Maggin (Introduction)\nPublished at 1997 - DC Comics - 231 pages\nRating: 4.24 - 43315 ratings\nMy Behavior: Not Read\n\nA book viewed 13 days ago\nTitle:Swamp Thing, Vol. 1: Saga of the Swamp Thing (['comics, graphic', 'fantasy, paranormal', 'fiction']) \nDescription: Before WATCHMEN, Alan Moore made his debut in the U.S. comic book industry with the revitalization of the horror comic book THE SWAMP THING. His deconstruction of the classic monster stretched the creative boundaries of the medium and became one of the most spectacular series in comic book history.With modern-day...\nAuthor: Alan Moore/Stephen R. Bissette (Illustrator)/John Totleben (Illustrator)/Rick Veitch (Illustrator)/Ramsey Campbell (Foreword)\nPublished at 1998 - Vertigo - 173 pages\nRating: 4.2 - 16650 ratings\nMy Behavior: Not Read\n\nA book viewed 13 days ago\nTitle:Fables and Reflections (The Sandman #6) (['comics, graphic', 'fiction', 'fantasy, paranormal', 'history, historical fiction, biography']) \nDescription: Fables & Reflections (1993) is the sixth collection of issues in the DC Comics series, The Sandman. It was written by Neil Gaiman and illustrated by Bryan Talbot, Stan Woch, P. Craig Russell, Shawn McManus, John Watkiss, Jill Thompson, Duncan Eagleson, Kent Williams, Mark Buckingham, Vince Locke and Dick Giordano,...\nAuthor: Neil Gaiman/Bryan Talbot (Illustrator)/Stan Woch (Illustrator)/P. Craig Russell (Illustrator)/Shawn McManus (Illustrator)/John Watkiss (Illustrator)/Jill Thompson (Illustrator)/Duncan Eagleson (Illustrator)/Kent Williams (Illustrator)/Todd Klein (Letterer)\nPublished at 1999 - DC Comics - NA pages\nRating: 4.45 - 36470 ratings\nMy Behavior: Not Read\n\nA book viewed 13 days ago\nTitle:The Complete Peanuts, Vol. 1: 1950-1952 (['comics, graphic', 'fiction', 'children']) \nDescription: This first volume, covering the first two and a quarter years of the strip, will be of particular fascination to Peanutsaficionados worldwide: Although there have been literally hundreds of Peanutsbooks published, many of the strips from the series' first two or three years have never been collected before--in large part...\nAuthor: Charles M. Schulz/Garrison Keillor (Introduction)/David Michaelis (Afterword)\nPublished at 2004 - Fantagraphics - 343 pages\nRating: 4.37 - 4876 ratings\nMy Behavior: Not Read\n\nA book viewed 8 days ago\nTitle:Ms. Marvel, Vol. 1: No Normal (['comics, graphic', 'young-adult', 'fiction', 'fantasy, paranormal']) \nDescription: Marvel Comics presents the new Ms. Marvel, the groundbreaking heroine that has become an international sensation! Kamala Khan is an ordinary girl from Jersey City -- until she's suddenly empowered with extraordinary gifts. But who truly is the new Ms. Marvel? Teenager? Muslim? Inhuman? Find out as she takes the...\nAuthor: G. Willow Wilson/Adrian Alphona (Artist)\nPublished at 2014 - Marvel - 120 pages\nRating: 4.12 - 58475 ratings\nMy Behavior: Not Read\n\nA book viewed 8 days ago\nTitle:Saga #1 (['comics, graphic', 'fantasy, paranormal', 'fiction', 'romance']) \nDescription: Star Wars-style action collides with Game of Thrones-esque drama in this original sci-fi/fantasy epic for mature readers, as new parents Marko and Alana risk everything to raise their child amidst a never-ending galactic war.\nAuthor: Brian K. Vaughan/Fiona Staples (Illustrator)\nPublished at  - NA - NA pages\nRating: 4.15 - 106098 ratings\nMy Behavior: Not Read\n\nA book viewed 8 days ago\nTitle:Buffy the Vampire Slayer: The Origin (Buffy the Vampire Slayer Comic #4 Buffy Season 1) (['comics, graphic', 'fantasy, paranormal', 'fiction', 'young-adult', 'mystery, thriller, crime']) \nDescription: Illustrates how reluctant high-school student Buffy Summers overcomes tribulation and accepts her destiny to fight evil and the undead who walk the streets of Los Angeles.\nAuthor: Christopher Golden/Dan Brereton\nPublished at 1999 - Dark Horse Books - 117 pages\nRating: 3.86 - 709 ratings\nMy Behavior: Not Read\n\nA book viewed 8 days ago\nTitle:Tomboy: A Graphic Memoir (['comics, graphic', 'young-adult', 'non-fiction', 'history, historical fiction, biography', 'fiction', 'romance']) \nDescription: Growing up, Liz Prince wasn't a girly girl, dressing in pink tutus or playing pretty princess like the other girls in her neighborhood. But she wasn't exactly one of the guys, either. She was somewhere in between. But with the forces of middle school, high school, parents, friendship, and romance...\nAuthor: Liz Prince\nPublished at 2014 - Zest Books - 256 pages\nRating: 3.93 - 7964 ratings\nMy Behavior: Not Read\n\nA book viewed 4 days ago\nTitle:The League of Extraordinary Gentlemen: Nemo (['comics, graphic', 'fantasy, paranormal', 'fiction', 'history, historical fiction, biography']) \nDescription: With a classic two-fisted spirit of adventure, Alan Moore & Kevin O'Neill explore stunning new horizons of their League of Extraordinary Gentlemen universe with the bestselling Nemo trilogy! These spinoff graphic novels follow the terrifying pirate queen Janni Nemo in her confrontations with unearthly Antarctic horrors (Heart of Ice), mechanical...\nAuthor: Alan Moore/Kevin O'Neill (Illustrator)\nPublished at 2015 - IDW Publishing - 168 pages\nRating: 3.71 - 52 ratings\nMy Behavior: Not Read\n\nA book viewed 2 days ago\nTitle:The Adventures of Super Diaper Baby (Super Diaper Baby, #1) (['comics, graphic', 'children', 'fiction', 'fantasy, paranormal', 'young-adult']) \nDescription: The first epic novel by George and Harold, the co-stars of Dav Pilkey's mega-bestselling Captain Underpants series. Now with super-cool foil covers! Shiny! Fun! Oh, no! It's not enough that George and Harold have invented Captain Underpants, the greatest superhero of all time, and that they've also saved the world...\nAuthor: Dav Pilkey/George Beard/Harold Hutchins\nPublished at 2002 - Blue Sky Press - 128 pages\nRating: 4.18 - 7691 ratings\nMy Behavior: Read\nRating: 5.0\n\n\n# Exposure List\n[A] Title:Hotaru's Light Vol. 5 (['romance', 'comics, graphic']) \nAuthor: Satoru Hiura\nPublished at 2008 - Level Comics - 172 pages\nRating: 3.61 - 31 ratings\n\n[B] Title:Big Nate: From the Top (['comics, graphic', 'fiction', 'children', 'young-adult']) \nAuthor: Lincoln Peirce\nPublished at 2010 - Andrews McMeel Publishing - 224 pages\nRating: 4.37 - 7831 ratings\n\n[C] Title:Hotaru's Light Vol. 1 (['romance', 'comics, graphic']) \nAuthor: Satoru Hiura\nPublished at 2007 - Level Comics - 192 pages\nRating: 3.74 - 53 ratings\n\n",
+                    "profile": {
+                        "gender": "male",
+                        "age": "35-44",
+                        "occupation": "other",
+                        "location": "Cincinnati, OH",
+                        "traits": [
+                            "Drama",
+                            "Musical",
+                            "War",
+                            "Mystery"
+                        ]
+                    },
+                    "history": [
+                        {
+                            "title": "Kingdom Come",
+                            "year": "1997",
+                            "genre": "comics, graphic | fiction | fantasy, paranormal | history, historical fiction, biography",
+                            "rating": "N/A",
+                            "description": "Winner of five Eisner and Harvey Awards, KINGDOM COME is the best-selling graphic novel from acclaimed writer Mark Waid and superstar painter Alex Ross. Set just after the dawn of the 21st Century, in a world spinning inexorably out of control, comes this grim tale of youth versus experience, a...",
+                            "author": "Mark Waid/Alex Ross (Illustrator)/Elliot S. Maggin (Introduction)",
+                            "publishedAt": "1997 - DC Comics",
+                            "pages": "231",
+                            "globalRating": "4.24 - 43315 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/kingdom_come.png"
+                        },
+                        {
+                            "title": "Swamp Thing, Vol. 1: Saga of the Swamp Thing",
+                            "year": "1998",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction",
+                            "rating": "N/A",
+                            "description": "Before WATCHMEN, Alan Moore made his debut in the U.S. comic book industry with the revitalization of the horror comic book THE SWAMP THING. His deconstruction of the classic monster stretched the creative boundaries of the medium and became one of the most spectacular series in comic book history.With modern-day...",
+                            "author": "Alan Moore/Stephen R. Bissette (Illustrator)/John Totleben (Illustrator)/Rick Veitch (Illustrator)/Ramsey Campbell (Foreword)",
+                            "publishedAt": "1998 - Vertigo",
+                            "pages": "173",
+                            "globalRating": "4.2 - 16650 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/swamp_thing_vol_1_saga_of_the_swamp_thing.png"
+                        },
+                        {
+                            "title": "Fables and Reflections (The Sandman #6)",
+                            "year": "1999",
+                            "genre": "comics, graphic | fiction | fantasy, paranormal | history, historical fiction, biography",
+                            "rating": "N/A",
+                            "description": "Fables & Reflections (1993) is the sixth collection of issues in the DC Comics series, The Sandman. It was written by Neil Gaiman and illustrated by Bryan Talbot, Stan Woch, P. Craig Russell, Shawn McManus, John Watkiss, Jill Thompson, Duncan Eagleson, Kent Williams, Mark Buckingham, Vince Locke and Dick Giordano,...",
+                            "author": "Neil Gaiman/Bryan Talbot (Illustrator)/Stan Woch (Illustrator)/P. Craig Russell (Illustrator)/Shawn McManus (Illustrator)/John Watkiss (Illustrator)/Jill Thompson (Illustrator)/Duncan Eagleson (Illustrator)/Kent Williams (Illustrator)/Todd Klein (Letterer)",
+                            "publishedAt": "1999 - DC Comics",
+                            "pages": "N/A",
+                            "globalRating": "4.45 - 36470 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/fables_and_reflections_the_sandman_6.png"
+                        },
+                        {
+                            "title": "The Complete Peanuts, Vol. 1: 1950-1952",
+                            "year": "2004",
+                            "genre": "comics, graphic | fiction | children",
+                            "rating": "N/A",
+                            "description": "This first volume, covering the first two and a quarter years of the strip, will be of particular fascination to Peanutsaficionados worldwide: Although there have been literally hundreds of Peanutsbooks published, many of the strips from the series' first two or three years have never been collected before--in large part...",
+                            "author": "Charles M. Schulz/Garrison Keillor (Introduction)/David Michaelis (Afterword)",
+                            "publishedAt": "2004 - Fantagraphics",
+                            "pages": "343",
+                            "globalRating": "4.37 - 4876 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/the_complete_peanuts_vol_1_1950_1952.png"
+                        },
+                        {
+                            "title": "Ms. Marvel, Vol. 1: No Normal",
+                            "year": "2014",
+                            "genre": "comics, graphic | young-adult | fiction | fantasy, paranormal",
+                            "rating": "N/A",
+                            "description": "Marvel Comics presents the new Ms. Marvel, the groundbreaking heroine that has become an international sensation! Kamala Khan is an ordinary girl from Jersey City -- until she's suddenly empowered with extraordinary gifts. But who truly is the new Ms. Marvel? Teenager? Muslim? Inhuman? Find out as she takes the...",
+                            "author": "G. Willow Wilson/Adrian Alphona (Artist)",
+                            "publishedAt": "2014 - Marvel",
+                            "pages": "120",
+                            "globalRating": "4.12 - 58475 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/ms_marvel_vol_1_no_normal.png"
+                        },
+                        {
+                            "title": "Saga #1",
+                            "year": "N/A",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction | romance",
+                            "rating": "N/A",
+                            "description": "Star Wars-style action collides with Game of Thrones-esque drama in this original sci-fi/fantasy epic for mature readers, as new parents Marko and Alana risk everything to raise their child amidst a never-ending galactic war.",
+                            "author": "Brian K. Vaughan/Fiona Staples (Illustrator)",
+                            "publishedAt": "N/A",
+                            "pages": "N/A",
+                            "globalRating": "4.15 - 106098 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/saga_1.png"
+                        },
+                        {
+                            "title": "Buffy the Vampire Slayer: The Origin (Buffy the Vampire Slayer Comic #4 Buffy Season 1)",
+                            "year": "1999",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction | young-adult | mystery, thriller, crime",
+                            "rating": "N/A",
+                            "description": "Illustrates how reluctant high-school student Buffy Summers overcomes tribulation and accepts her destiny to fight evil and the undead who walk the streets of Los Angeles.",
+                            "author": "Christopher Golden/Dan Brereton",
+                            "publishedAt": "1999 - Dark Horse Books",
+                            "pages": "117",
+                            "globalRating": "3.86 - 709 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/buffy_the_vampire_slayer_the_origin_buffy_the_vampire_slayer_comic_4_buffy_season_1.png"
+                        },
+                        {
+                            "title": "Tomboy: A Graphic Memoir",
+                            "year": "2014",
+                            "genre": "comics, graphic | young-adult | non-fiction | history, historical fiction, biography | fiction | romance",
+                            "rating": "N/A",
+                            "description": "Growing up, Liz Prince wasn't a girly girl, dressing in pink tutus or playing pretty princess like the other girls in her neighborhood. But she wasn't exactly one of the guys, either. She was somewhere in between. But with the forces of middle school, high school, parents, friendship, and romance...",
+                            "author": "Liz Prince",
+                            "publishedAt": "2014 - Zest Books",
+                            "pages": "256",
+                            "globalRating": "3.93 - 7964 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/tomboy_a_graphic_memoir.png"
+                        },
+                        {
+                            "title": "The League of Extraordinary Gentlemen: Nemo",
+                            "year": "2015",
+                            "genre": "comics, graphic | fantasy, paranormal | fiction | history, historical fiction, biography",
+                            "rating": "N/A",
+                            "description": "With a classic two-fisted spirit of adventure, Alan Moore & Kevin O'Neill explore stunning new horizons of their League of Extraordinary Gentlemen universe with the bestselling Nemo trilogy! These spinoff graphic novels follow the terrifying pirate queen Janni Nemo in her confrontations with unearthly Antarctic horrors (Heart of Ice), mechanical...",
+                            "author": "Alan Moore/Kevin O'Neill (Illustrator)",
+                            "publishedAt": "2015 - IDW Publishing",
+                            "pages": "168",
+                            "globalRating": "3.71 - 52 ratings",
+                            "myBehavior": "Not Read",
+                            "cover": "/covers/books/the_league_of_extraordinary_gentlemen_nemo.png"
+                        },
+                        {
+                            "title": "The Adventures of Super Diaper Baby (Super Diaper Baby, #1)",
+                            "year": "2002",
+                            "genre": "comics, graphic | children | fiction | fantasy, paranormal | young-adult",
+                            "rating": "5.0/5.0",
+                            "description": "The first epic novel by George and Harold, the co-stars of Dav Pilkey's mega-bestselling Captain Underpants series. Now with super-cool foil covers! Shiny! Fun! Oh, no! It's not enough that George and Harold have invented Captain Underpants, the greatest superhero of all time, and that they've also saved the world...",
+                            "author": "Dav Pilkey/George Beard/Harold Hutchins",
+                            "publishedAt": "2002 - Blue Sky Press",
+                            "pages": "128",
+                            "globalRating": "4.18 - 7691 ratings",
+                            "myBehavior": "Read",
+                            "cover": "/covers/books/the_adventures_of_super_diaper_baby_super_diaper_baby_1.png"
+                        }
+                    ],
+                    "exposureList": [
+                        {
+                            "label": "A",
+                            "title": "Hotaru's Light Vol. 5",
+                            "year": "2008",
+                            "genre": "romance | comics, graphic",
+                            "author": "Satoru Hiura",
+                            "publishedAt": "2008 - Level Comics",
+                            "pages": "172",
+                            "rating": "3.61 - 31 ratings",
+                            "cover": "/covers/books/hotaru_s_light_vol_5.png"
+                        },
+                        {
+                            "label": "B",
+                            "title": "Big Nate: From the Top",
+                            "year": "2010",
+                            "genre": "comics, graphic | fiction | children | young-adult",
+                            "author": "Lincoln Peirce",
+                            "publishedAt": "2010 - Andrews McMeel Publishing",
+                            "pages": "224",
+                            "rating": "4.37 - 7831 ratings",
+                            "cover": "/covers/books/big_nate_from_the_top.png"
+                        },
+                        {
+                            "label": "C",
+                            "title": "Hotaru's Light Vol. 1",
+                            "year": "2007",
+                            "genre": "romance | comics, graphic",
+                            "author": "Satoru Hiura",
+                            "publishedAt": "2007 - Level Comics",
+                            "pages": "192",
+                            "rating": "3.74 - 53 ratings",
+                            "cover": "/covers/books/hotaru_s_light_vol_1.png"
+                        }
+                    ],
+                    "groundTruth": "B",
+                    "modelOutputs": {
+                        "teacher": {
+                            "stimulus": {
+                                "text": "I feel a strong urge to explore new graphic novels, especially those that offer a fresh storyline and unique characters. This desire is fueled by my recent enjoyment of 'The Adventures of Super Diaper Baby' and my interest in the genre of comics and graphic novels.",
+                                "factors": "Curiosity, Emotional State, Past Experience"
+                            },
+                            "knowledge": {
+                                "text": "Upon reviewing the exposure list, I am particularly drawn to 'Big Nate: From the Top' because it combines elements of humor, fiction, and young adult themes that align well with my preferences. The high rating and the familiar format of a well-known series also make it a strong contender.",
+                                "factors": "Personal Relevance (Functional, Thematic, Identity-Based), Emotional Appeal, Rating Score/Distribution"
+                            },
+                            "evaluation": {
+                                "text": "I believe 'Big Nate: From the Top' will be a fun and engaging read, providing a balance of humor and relatable characters that I enjoy. The positive reviews and the familiar series format make it a safe and appealing choice.",
+                                "style": "Logical"
+                            },
+                            "behavior": "B"
+                        },
+                        "student": {
+                            "stimulus": {
+                                "text": "I'm feeling a bit restless and nostalgic for the fantastical worlds of my youth, and I'm craving something exciting to get lost in.",
+                                "factors": "Boredom, Curiosity, Need for Escapism"
+                            },
+                            "knowledge": {
+                                "text": "I've been browsing through my comics and graphic novel history, and I keep coming across titles that caught my attention but never got read. I'm particularly drawn to stories with strong female protagonists, supernatural themes, and a mix of action and romance.",
+                                "factors": "Product/Service Attributes (Strong Female Protagonists, Supernatural Themes, Action and Romance), Information Source & Presentation (Past Favorites, User Recommendations), User's Prior Knowledge (Childhood Favorites)"
+                            },
+                            "evaluation": {
+                                "text": "I'm leaning towards a title that will transport me back to a world I loved as a teenager, but with a modern twist. I'm willing to invest in a story that will keep me hooked and excited.",
+                                "style": "Intuitive"
+                            },
+                            "behavior": "C"
+                        },
+                        "Fine-tuned_model": {
+                            "stimulus": {
+                                "text": "I am looking for a new comic book to read that aligns with my interests in fantasy, paranormal, and young-adult themes. I recently finished reading 'The Adventures of Super Diaper Baby' and am eager to continue exploring similar graphic novels.",
+                                "factors": "Internal States (Curiosity, Need for Achievement), External Cues (Past Experience, User Preferences/History)"
+                            },
+                            "knowledge": {
+                                "text": "After reviewing the exposure list, I am particularly drawn to 'Big Nate: From the Top' by Lincoln Peirce. The book's themes of fantasy and young-adult fiction resonate with my preferences, and the high rating and positive reviews suggest it is well-received by readers.",
+                                "factors": "Product/Service Attributes (Personal Relevance, Emotional Appeal, Quality), Information Source & Presentation (Rating Score/Distribution, Review Content/Sentiment)"
+                            },
+                            "evaluation": {
+                                "text": "I believe 'Big Nate: From the Top' will provide a similar level of enjoyment and satisfaction as 'The Adventures of Super Diaper Baby.' The book's thematic alignment and positive reception make it a logical choice for my next read.",
+                                "style": "Logical"
+                            },
+                            "behavior": "B"
+                        }
+                    }
+                }
+            ]
+        },
+        "Movie": {
+            "users": [
+                {
+                    "id": "1",
+                    "name": "New Orleans User",
+                    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=small",
+                    "domain": "Movie",
+                    "rawProfile": "## User Profile\nGender: male\nAge: 35-44\nOccupation: executive/managerial\nLocation: New Orleans, LA\n\n\n## History\nA movie viewed 3 minutes ago\nMarried to the Mob (1988) Comedy \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 3 minutes ago\nU-571 (2000) Action|Thriller \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed 3 minutes ago\nRobocop (1987) Action|Crime|Sci-Fi \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 3 minutes ago\nAmerican Pie (1999) Comedy \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 2 minutes ago\nSlums of Beverly Hills, The (1998) Comedy \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 2 minutes ago\nTin Cup (1996) Comedy|Romance \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 2 minutes ago\nX-Files: Fight the Future, The (1998) Mystery|Sci-Fi|Thriller \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 2 minutes ago\nTitanic (1997) Drama|Romance \nMy Behavior:\nRating: 2.0/5.0\n\nA movie viewed 2 minutes ago\nBasic Instinct (1992) Mystery|Thriller \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 2 minutes ago\nBasquiat (1996) Drama \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 2 minutes ago\nTo Die For (1995) Comedy|Drama \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 2 minutes ago\nKarate Kid, The (1984) Drama \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 2 minutes ago\nSuperman II (1980) Action|Adventure|Sci-Fi \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed 1 minute ago\nVictor/Victoria (1982) Comedy|Musical \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nDogma (1999) Comedy \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 1 minute ago\nCharlotte's Web (1973) Animation|Children's \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 1 minute ago\nSleepless in Seattle (1993) Comedy|Romance \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 1 minute ago\nGood Morning, Vietnam (1987) Comedy|Drama|War \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 1 minute ago\nColor of Money, The (1986) Drama \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nExotica (1994) Drama \nMy Behavior:\nRating: 4.0/5.0\n\n\n# Exposure List\n[A] Blood Spattered Bride, The (La Novia Ensangrentada) (1972) - Horror \n\n[B] Lethal Weapon 2 (1989) - Action|Comedy|Crime|Drama \n\n[C] Champ, The (1979) - Drama \n\n[D] Haunted World of Edward D. Wood Jr., The (1995) - Documentary \n\n[E] House on Haunted Hill, The (1999) - Horror \n\n",
+                    "profile": {
+                        "gender": "male",
+                        "age": "35-44",
+                        "occupation": "executive/managerial",
+                        "location": "New Orleans, LA",
+                        "traits": [
+                            "Comedy",
+                            "Action",
+                            "Drama",
+                            "Thriller"
+                        ]
+                    },
+                    "history": [
+                        {
+                            "title": "Married to the Mob",
+                            "year": "1988",
+                            "genre": "Comedy",
+                            "rating": "4.0/5.0",
+                            "cover": "/covers/movies/married_to_the_mob.png"
+                        },
+                        {
+                            "title": "U-571",
+                            "year": "2000",
+                            "genre": "Action|Thriller",
+                            "rating": "3.0/5.0",
+                            "cover": "/covers/movies/u_571_2000.png"
+                        },
+                        {
+                            "title": "Robocop",
+                            "year": "1987",
+                            "genre": "Action|Crime|Sci-Fi",
+                            "rating": "5.0/5.0",
+                            "cover": "/covers/movies/robocop_1987.png"
+                        },
+                        {
+                            "title": "American Pie",
+                            "year": "1999",
+                            "genre": "Comedy",
+                            "rating": "4.0/5.0",
+                            "cover": "/covers/movies/american_pie_1999.png"
+                        },
+                        {
+                            "title": "Slums of Beverly Hills, The",
+                            "year": "1998",
+                            "genre": "Comedy",
+                            "rating": "5.0/5.0",
+                            "cover": "/covers/movies/slums_of_beverly_hills_the_1998.png"
+                        },
+                        {
+                            "title": "Tin Cup",
+                            "year": "1996",
+                            "genre": "Comedy|Romance",
+                            "rating": "4.0/5.0",
+                            "cover": "/covers/movies/tin_cup_1996.png"
+                        },
+                        {
+                            "title": "X-Files: Fight the Future, The",
+                            "year": "1998",
+                            "genre": "Mystery|Sci-Fi|Thriller",
+                            "rating": "5.0/5.0",
+                            "cover": "/covers/movies/x_files_fight_the_future_the_1998.png"
+                        },
+                        {
+                            "title": "Titanic",
+                            "year": "1997",
+                            "genre": "Drama|Romance",
+                            "rating": "2.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Basic Instinct",
+                            "year": "1992",
+                            "genre": "Mystery|Thriller",
+                            "rating": "5.0/5.0",
+                            "cover": "/covers/movies/basic_instinct_1992.png"
+                        },
+                        {
+                            "title": "Basquiat",
+                            "year": "1996",
+                            "genre": "Drama",
+                            "rating": "5.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "To Die For",
+                            "year": "1995",
+                            "genre": "Comedy|Drama",
+                            "rating": "4.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Karate Kid, The",
+                            "year": "1984",
+                            "genre": "Drama",
+                            "rating": "4.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Superman II",
+                            "year": "1980",
+                            "genre": "Action|Adventure|Sci-Fi",
+                            "rating": "3.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Victor/Victoria",
+                            "year": "1982",
+                            "genre": "Comedy|Musical",
+                            "rating": "4.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Dogma",
+                            "year": "1999",
+                            "genre": "Comedy",
+                            "rating": "5.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Charlotte's Web",
+                            "year": "1973",
+                            "genre": "Animation|Children's",
+                            "rating": "5.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Sleepless in Seattle",
+                            "year": "1993",
+                            "genre": "Comedy|Romance",
+                            "rating": "5.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Good Morning, Vietnam",
+                            "year": "1987",
+                            "genre": "Comedy|Drama|War",
+                            "rating": "5.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Color of Money, The",
+                            "year": "1986",
+                            "genre": "Drama",
+                            "rating": "3.0/5.0",
+                            "cover": ""
+                        },
+                        {
+                            "title": "Exotica",
+                            "year": "1994",
+                            "genre": "Drama",
+                            "rating": "4.0/5.0",
+                            "cover": ""
+                        }
+                    ],
+                    "exposureList": [
+                        {
+                            "label": "A",
+                            "title": "Blood Spattered Bride, The (La Novia Ensangrentada)",
+                            "year": "1972",
+                            "genre": "Horror",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/2/4/5/9/6/24596-the-blood-spattered-bride-0-230-0-345-crop.jpg?v=bcdbe620b4"
+                        },
+                        {
+                            "label": "B",
+                            "title": "Lethal Weapon 2",
+                            "year": "1989",
+                            "genre": "Action|Comedy|Crime|Drama",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/2/1/1/51211-lethal-weapon-2-0-230-0-345-crop.jpg?v=0b9703f4e2"
+                        },
+                        {
+                            "label": "C",
+                            "title": "Champ, The",
+                            "year": "1979",
+                            "genre": "Drama",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/3/1/9/4/5/31945-the-champ-0-230-0-345-crop.jpg?v=3bcc070f35"
+                        },
+                        {
+                            "label": "D",
+                            "title": "Haunted World of Edward D. Wood Jr., The",
+                            "year": "1995",
+                            "genre": "Documentary",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/6/3/1/7/56317-the-haunted-world-of-edward-d-wood-jr-0-230-0-345-crop.jpg?v=1e566326f3"
+                        },
+                        {
+                            "label": "E",
+                            "title": "House on Haunted Hill, The",
+                            "year": "1999",
+                            "genre": "Horror",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/a6/gg/qc/la/yedchBbI23FgDjWP1tvahOZgiks-0-230-0-345-crop.jpg?v=5f74ae2c32"
+                        }
+                    ],
+                    "groundTruth": "B",
+                    "modelOutputs": {
+                        "teacher": {
+                            "stimulus": {
+                                "text": "I am in the mood for a movie to unwind after a long day at work. I am particularly drawn to action and comedy films that can provide a good mix of entertainment and light-hearted moments.",
+                                "factors": "Time of Day, Emotional State, Past Experience"
+                            },
+                            "knowledge": {
+                                "text": "I go through the exposure list and consider the attributes of each movie. 'Lethal Weapon 2' stands out because it combines action, comedy, and crime elements, which I enjoy based on my viewing history. 'The Haunted World of Edward D. Wood Jr.' also catches my eye as it's a documentary about a director whose work I've appreciated in the past.",
+                                "factors": "Product/Service Attributes, Information Source & Presentation, User's Prior Knowledge"
+                            },
+                            "evaluation": {
+                                "text": "I decide to go with 'Lethal Weapon 2' because it fits my current mood and aligns with my preference for action-comedy films. The movie has a solid balance of humor and intensity, which I've found to be entertaining based on my past experiences.",
+                                "style": "Logical"
+                            },
+                            "behavior": "B"
+                        },
+                        "student": {
+                            "stimulus": {
+                                "text": "I'm in a good mood, having watched several enjoyable movies recently, and I'm looking for something new to watch. The fact that it's a Friday evening and I'm in New Orleans, LA, also suggests that I might want to watch something light-hearted and fun.",
+                                "factors": "External Cues (Location, Time of Day), Internal States (Curiosity, Need for Achievement)"
+                            },
+                            "knowledge": {
+                                "text": " As I look through the exposure list, I notice that there are several options that might appeal to me, given my recent viewing history. I see that I've enjoyed comedies like American Pie and Dogma, and I'm also in the mood for something light-hearted. The documentary Haunted World of Edward D. Wood Jr. also catches my eye, as I'm interested in learning more about the life and work of a film director.",
+                                "factors": "Product/Service Attributes (Novelty, Emotional Appeal), Information Source & Presentation (Visual Presentation, Recommendation Source)"
+                            },
+                            "evaluation": {
+                                "text": "Based on my recent viewing history and current mood, I think I'd like to watch something that's fun, light-hearted, and might appeal to my sense of curiosity. I'm not in the mood for anything too intense or serious.",
+                                "style": "Intuitive"
+                            },
+                            "behavior": "E"
+                        },
+                        "Fine-tuned_model": {
+                            "stimulus": {
+                                "text": "I am looking for a movie to watch after a long day at work. I want something that will either entertain me or provide a bit of a break from the stresses of my job.",
+                                "factors": "Emotional State, Time of Day"
+                            },
+                            "knowledge": {
+                                "text": "From the exposure list, I noticed that 'Lethal Weapon 2' is an action-comedy-drama movie. This genre aligns well with my recent viewing history, particularly the comedies and action films I've rated highly. The other options, such as 'The Haunted World of Edward D. Wood Jr.' and 'The House on Haunted Hill,' are primarily horror, which is not my preferred genre at this moment.",
+                                "factors": "Product Attributes (Genre, Entertainment Value), Information Source & Presentation (Visual Presentation, Recommendation Source)"
+                            },
+                            "evaluation": {
+                                "text": "I am drawn to 'Lethal Weapon 2' because it combines elements of action and comedy, which I find appealing based on my recent movie ratings. The other options are not as aligned with my current mood and preferences.",
+                                "style": "Logical"
+                            },
+                            "behavior": "B"
+                        }
+                    }
+                },
+                {
+                    "id": "2",
+                    "name": "Pacifica User",
+                    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Pacifica",
+                    "domain": "Movie",
+                    "rawProfile": "## User Profile\nGender: male\nAge: 18-24\nOccupation: college/grad student\nLocation: Pacifica, CA\n\n\n## History\nA movie viewed 2 minutes ago\nGattaca (1997) Drama|Sci-Fi|Thriller \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed 2 minutes ago\nTerminator 2: Judgment Day (1991) Action|Sci-Fi|Thriller \nMy Behavior:\nRating: 5.0/5.0\n\nA movie viewed 2 minutes ago\nMystery Science Theater 3000: The Movie (1996) Comedy|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nJurassic Park (1993) Action|Adventure|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nScreamers (1995) Sci-Fi|Thriller \nMy Behavior:\nRating: 2.0/5.0\n\nA movie viewed 1 minute ago\nStrange Days (1995) Action|Crime|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nStar Trek: First Contact (1996) Action|Adventure|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nStarship Troopers (1997) Action|Adventure|Sci-Fi|War \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nFifth Element, The (1997) Action|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nMen in Black (1997) Action|Adventure|Comedy|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed 1 minute ago\nStar Trek VI: The Undiscovered Country (1991) Action|Adventure|Sci-Fi \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed 1 minute ago\nFlight of the Navigator (1986) Adventure|Children's|Sci-Fi \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nBack to the Future Part III (1990) Comedy|Sci-Fi|Western \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nMars Attacks! (1996) Action|Comedy|Sci-Fi|War \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nDemolition Man (1993) Action|Sci-Fi \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed just now\nX-Files: Fight the Future, The (1998) Mystery|Sci-Fi|Thriller \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nStargate (1994) Action|Adventure|Sci-Fi \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nIndependence Day (ID4) (1996) Action|Sci-Fi|War \nMy Behavior:\nRating: 4.0/5.0\n\nA movie viewed just now\nStar Trek: Generations (1994) Action|Adventure|Sci-Fi \nMy Behavior:\nRating: 3.0/5.0\n\nA movie viewed just now\nPowder (1995) Drama|Sci-Fi \nMy Behavior:\nRating: 3.0/5.0\n\n\n# Exposure List\n[A] Renaissance Man (1994) - Comedy|Drama|War \n\n[B] To Be or Not to Be (1942) - Comedy|Drama|War \n\n[C] American President, The (1995) - Comedy|Drama|Romance \n\n[D] How I Won the War (1967) - Comedy|War \n\n[E] Ran (1985) - Drama|War \n\n[F] Arachnophobia (1990) - Action|Comedy|Sci-Fi|Thriller \n\n[G] Ransom (1996) - Drama|Thriller \n\n[H] Return to Paradise (1998) - Drama|Romance \n\n[I] Awakenings (1990) - Drama \n\n[J] Reach the Rock (1997) - Comedy \n\n[K] Beauty and the Beast (1991) - Animation|Children's|Musical \n\n[L] English Patient, The (1996) - Drama|Romance|War \n\n[M] Carnosaur 3: Primal Species (1996) - Horror|Sci-Fi \n\n",
+                    "profile": {
+                        "gender": "male",
+                        "age": "18-24",
+                        "occupation": "college/grad student",
+                        "location": "Pacifica, CA",
+                        "traits": [
+                            "Action",
+                            "Sci-Fi",
+                            "Thriller",
+                            "Adventure"
+                        ]
+                    },
+                    "history": [
+                        {
+                            "title": "Gattaca",
+                            "year": "1997",
+                            "genre": "Drama|Sci-Fi|Thriller",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/3/7/0/51370-gattaca-0-230-0-345-crop.jpg?v=a0ca9198ff"
+                        },
+                        {
+                            "title": "Terminator 2: Judgment Day",
+                            "year": "1991",
+                            "genre": "Action|Sci-Fi|Thriller",
+                            "rating": "5.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/7/7/6/51776-terminator-2-judgment-day-0-230-0-345-crop.jpg?v=64f1721e62"
+                        },
+                        {
+                            "title": "Mystery Science Theater 3000: The Movie",
+                            "year": "1996",
+                            "genre": "Comedy|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/9/9/0/6/49906-mystery-science-theater-3000-the-movie-0-230-0-345-crop.jpg?v=83f5c9738c"
+                        },
+                        {
+                            "title": "Jurassic Park",
+                            "year": "1993",
+                            "genre": "Action|Adventure|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/1g/zz/ez/d8/yyCKYaW908ZbpexpnBJ3p8o87HA-0-230-0-345-crop.jpg?v=19a50874d0"
+                        },
+                        {
+                            "title": "Screamers",
+                            "year": "1995",
+                            "genre": "Sci-Fi|Thriller",
+                            "rating": "2.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/xv/pf/0v/c1/aFEs7D7IQ2IehTsniRIojDkiDl6-0-230-0-345-crop.jpg?v=9b7fc677de"
+                        },
+                        {
+                            "title": "Strange Days",
+                            "year": "1995",
+                            "genre": "Action|Crime|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/1y/4q/va/98/sd-poster-0-230-0-345-crop.jpg?v=f28460c82d"
+                        },
+                        {
+                            "title": "Star Trek: First Contact",
+                            "year": "1996",
+                            "genre": "Action|Adventure|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/8/5/3/51853-star-trek-first-contact-0-230-0-345-crop.jpg?v=0cceb65c59"
+                        },
+                        {
+                            "title": "Starship Troopers",
+                            "year": "1997",
+                            "genre": "Action|Adventure|Sci-Fi|War",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/5/5/5/51555-starship-troopers-0-230-0-345-crop.jpg?v=dd7022caf2"
+                        },
+                        {
+                            "title": "Fifth Element, The",
+                            "year": "1997",
+                            "genre": "Action|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/2/6/9/9/2699-the-fifth-element-0-230-0-345-crop.jpg?v=5f207d9244"
+                        },
+                        {
+                            "title": "Men in Black",
+                            "year": "1997",
+                            "genre": "Action|Adventure|Comedy|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/5/1/4/51514-men-in-black-0-230-0-345-crop.jpg?v=b5749570bd"
+                        },
+                        {
+                            "title": "Star Trek VI: The Undiscovered Country",
+                            "year": "1991",
+                            "genre": "Action|Adventure|Sci-Fi",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/8/7/7/51877-star-trek-vi-the-undiscovered-country-0-230-0-345-crop.jpg?v=33c61a7b2d"
+                        },
+                        {
+                            "title": "Flight of the Navigator",
+                            "year": "1986",
+                            "genre": "Adventure|Children's|Sci-Fi",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/5/2/7/46527-flight-of-the-navigator-0-230-0-345-crop.jpg?v=b4fbcdcda4"
+                        },
+                        {
+                            "title": "Back to the Future Part III",
+                            "year": "1990",
+                            "genre": "Comedy|Sci-Fi|Western",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/8/5/6/51856-back-to-the-future-part-iii-0-230-0-345-crop.jpg?v=fdbcbb74cb"
+                        },
+                        {
+                            "title": "Mars Attacks!",
+                            "year": "1996",
+                            "genre": "Action|Comedy|Sci-Fi|War",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/dx/sb/el/ld/sM4VrptBRIFHmN7mLJZ2BaGKYNq-0-230-0-345-crop.jpg?v=c5cd771487"
+                        },
+                        {
+                            "title": "Demolition Man",
+                            "year": "1993",
+                            "genre": "Action|Sci-Fi",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/8/6/8/46868-demolition-man-0-230-0-345-crop.jpg?v=2a6b346a45"
+                        },
+                        {
+                            "title": "X-Files: Fight the Future, The",
+                            "year": "1998",
+                            "genre": "Mystery|Sci-Fi|Thriller",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/3/0/6/51306-the-x-files-0-230-0-345-crop.jpg?v=e67110dbfe"
+                        },
+                        {
+                            "title": "Stargate",
+                            "year": "1994",
+                            "genre": "Action|Adventure|Sci-Fi",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/0/4/7/1/50471-stargate-0-230-0-345-crop.jpg?v=f9bf55ec3a"
+                        },
+                        {
+                            "title": "Independence Day (ID4)",
+                            "year": "1996",
+                            "genre": "Action|Sci-Fi|War",
+                            "rating": "4.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/7q/v8/7h/61/bqLlWZJdhrS0knfEJRkquW7L8z2-0-230-0-345-crop.jpg?v=668fcae5df"
+                        },
+                        {
+                            "title": "Star Trek: Generations",
+                            "year": "1994",
+                            "genre": "Action|Adventure|Sci-Fi",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/8/5/9/51859-star-trek-generations-0-230-0-345-crop.jpg?v=33c61a7b2d"
+                        },
+                        {
+                            "title": "Powder",
+                            "year": "1995",
+                            "genre": "Drama|Sci-Fi",
+                            "rating": "3.0/5.0",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/4/3/8/2/44382-powder-0-230-0-345-crop.jpg?v=ef153f0843"
+                        }
+                    ],
+                    "exposureList": [
+                        {
+                            "label": "A",
+                            "title": "Renaissance Man",
+                            "year": "1994",
+                            "genre": "Comedy|Drama|War",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/4/9/4/4/44944-renaissance-man-0-230-0-345-crop.jpg?v=280475882d"
+                        },
+                        {
+                            "label": "B",
+                            "title": "To Be or Not to Be",
+                            "year": "1942",
+                            "genre": "Comedy|Drama|War",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/8/5/4/51854-to-be-or-not-to-be-0-230-0-345-crop.jpg?v=7a2855eacc"
+                        },
+                        {
+                            "label": "C",
+                            "title": "American President, The",
+                            "year": "1995",
+                            "genre": "Comedy|Drama|Romance",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/3/5/7/47357-the-american-president-0-230-0-345-crop.jpg?v=52e18ab783"
+                        },
+                        {
+                            "label": "D",
+                            "title": "How I Won the War",
+                            "year": "1967",
+                            "genre": "Comedy|War",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/3/3/1/8/5/33185-how-i-won-the-war-0-230-0-345-crop.jpg?v=545c8e9859"
+                        },
+                        {
+                            "label": "E",
+                            "title": "Ran",
+                            "year": "1985",
+                            "genre": "Drama|War",
+                            "cover": "https://a.ltrbxd.com/resized/sm/upload/h6/yo/p7/1t/ran-0-230-0-345-crop.jpg?v=3cabb176dc"
+                        },
+                        {
+                            "label": "F",
+                            "title": "Arachnophobia",
+                            "year": "1990",
+                            "genre": "Action|Comedy|Sci-Fi|Thriller",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/8/2/8/8/48288-arachnophobia-0-230-0-345-crop.jpg?v=a96c828efe"
+                        },
+                        {
+                            "label": "G",
+                            "title": "Ransom",
+                            "year": "1996",
+                            "genre": "Drama|Thriller",
+                            "cover": "https://a.ltrbxd.com/resized/film-poster/4/9/6/4/0/49640-ransom-0-230-0-345-crop.jpg?v=8dc228c178"
+                        },
+                        {
+                            "label": "H",
+                            "title": "Return to Paradise",
+                            "year": "1998",
+                            "genre": "Drama|Romance",
+                            "cover": "/covers/movies/return-to-paradise.jpg"
+                        },
+                        {
+                            "label": "I",
+                            "title": "Awakenings",
+                            "year": "1990",
+                            "genre": "Drama",
+                            "cover": "/covers/movies/Awakenings.jpg"
+                        },
+                        {
+                            "label": "J",
+                            "title": "Reach the Rock",
+                            "year": "1997",
+                            "genre": "Comedy",
+                            "cover": "/covers/movies/Reach_the_Rock.jpg"
+                        },
+                        {
+                            "label": "K",
+                            "title": "Beauty and the Beast",
+                            "year": "1991",
+                            "genre": "Animation|Children's|Musical",
+                            "cover": "/covers/movies/Beauty_and_the_Beast.jpg"
+                        },
+                        {
+                            "label": "L",
+                            "title": "English Patient, The",
+                            "year": "1996",
+                            "genre": "Drama|Romance|War",
+                            "cover": "/covers/movies/the-english-patient.jpg"
+                        },
+                        {
+                            "label": "M",
+                            "title": "Carnosaur 3: Primal Species",
+                            "year": "1996",
+                            "genre": "Horror|Sci-Fi",
+                            "cover": "/covers/movies/carnosaur-3-primal-species.jpg"
+                        }
+                    ],
+                    "groundTruth": "F",
+                    "modelOutputs": {
+                        "teacher": {
+                            "stimulus": {
+                                "text": "I'm feeling bored and want to watch a movie that combines elements of action and comedy, something that can provide a good balance between entertainment and light-hearted fun. I'm currently in my dorm, and it's a weekend evening.",
+                                "factors": "Boredom, Time of Day, Location, Emotional State"
+                            },
+                            "knowledge": {
+                                "text": "After browsing through the exposure list, I noticed that 'Arachnophobia' (1990) combines elements of action and comedy, which aligns well with my preference for sci-fi and action films with a lighter tone. I also appreciate the thriller aspect, as it adds an element of excitement to the movie.",
+                                "factors": "Product/Service Attributes (Price, Quality, Features, Convenience, Novelty, Brand Reputation, Personal Relevance), Information Source & Presentation (Visual Presentation, Recommendation Source, Review Content/Sentiment, Rating Score/Distribution, Social Proof)"
+                            },
+                            "evaluation": {
+                                "text": "'Arachnophobia' seems to be a good fit for my current mood and preferences. It offers a mix of action, comedy, and a bit of sci-fi, which is a combination that I enjoy. The movie's plot about a group of people fighting against genetically engineered spiders sounds both entertaining and thrilling.",
+                                "style": "Logical"
+                            },
+                            "behavior": "F"
+                        },
+                        "student": {
+                            "stimulus": {
+                                "text": "I'm feeling a bit restless after watching a few sci-fi movies back to back. I've been a college student for a while now, and I'm starting to feel the pressure of completing my coursework. I'm also in the mood for something light-hearted and entertaining.",
+                                "factors": "Time of Day (evening), Day of Week (weekday), Weather (cool and cloudy)"
+                            },
+                            "knowledge": {
+                                "text": "As I scan the exposure list, I notice that there are some classic comedies and dramas that I've never seen before. I'm intrigued by the idea of watching a comedy that's been around since the 1940s, and I'm also drawn to the idea of watching a film that explores themes of war and romance.",
+                                "factors": "Novelty, Brand Reputation, Emotional Appeal"
+                            },
+                            "evaluation": {
+                                "text": "I think I'd enjoy watching a film that's a bit more lighthearted and humorous. I've been watching a lot of sci-fi movies lately, and I'm in the mood for something different. I also think that watching a classic comedy would be a great way to take my mind off of my coursework and relax.",
+                                "style": "Intuitive"
+                            },
+                            "behavior": "J"
+                        },
+                        "Fine-tuned_model": {
+                            "stimulus": {
+                                "text": "I am looking for a movie to watch that fits my preferences for action, sci-fi, and a bit of comedy. I am in the mood for something that will keep me entertained and maybe even surprise me a bit.",
+                                "factors": "Internal States (Curiosity, Need for Achievement), External Cues (Time of Day, Location)"
+                            },
+                            "knowledge": {
+                                "text": "After reviewing the exposure list, I am particularly drawn to 'Arachnophobia' (1990) because it combines action, comedy, and sci-fi elements, which are all genres I enjoy. The movie's premise and reviews suggest it will be a fun and entertaining watch.",
+                                "factors": "Product/Service Attributes (Genre, Personal Relevance, Emotional Appeal), Information Source & Presentation (Visual Presentation, Recommendation Source, Review Content/Sentiment)"
+                            },
+                            "evaluation": {
+                                "text": "I feel that 'Arachnophobia' will be a good fit for my current mood and preferences. It seems like a movie that will provide the right mix of action and humor, which I find appealing.",
+                                "style": "Logical"
+                            },
+                            "behavior": "F"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
