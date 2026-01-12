@@ -91,12 +91,12 @@ export const MainContent: React.FC<MainContentProps> = ({ selectedUser }) => {
                 const outputs = selectedUser.modelOutputs;
                 const t1 = setTimeout(() => {
                     setTeacherResult({ result: outputs.teacher, loading: false });
-                }, 2500 + Math.random() * 2000);
+                }, 1500 + Math.random() * 1000);
                 timeoutRefs.current.push(t1);
 
                 const t2 = setTimeout(() => {
                     setStudentResult({ result: outputs.student, loading: false });
-                }, 2000 + Math.random() * 2000);
+                }, 1000 + Math.random() * 1000);
                 timeoutRefs.current.push(t2);
             } else {
                 // Fallback to API if no static outputs available
